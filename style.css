@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box; 
+}
+
+/* :focus {
+
+} */
+
+body {
+background-image: linear-gradient(to right, yellow, orangered);
+}
+
+input {
+  border-color: orangered;
+  border-top: none;
+  border-left: none;
+}
+
+.search-container {
+  width: 15%;
+  margin: auto;
+  padding: 300px 0;
+  
+}
+.search-container input,
+.search-container .suggestions {
+  background: rgba(255, 235, 205, 0.35);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.search-container input {
+  width: 100%;
+
+
+}
+/* .search-container .suggestions {
+
+} */
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+/* ul.has-suggestions {
+
+} */
+/* ul li {
+
+
+} */
+ul li:hover {
+  background-color: orange;
+}
+
+/* input {
+
+} */
